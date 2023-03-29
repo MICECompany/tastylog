@@ -9,7 +9,7 @@ on:
       - .github/workflows/**
   workflow_dispatch:
 
-permission:
+permissions:
   id-token: write
   contents: read
 
